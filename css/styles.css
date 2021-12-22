@@ -1,23 +1,25 @@
 body {
 
   text-align: center;
- background-color: #E4CDA7;
+colour: black;
 
 }
 pre{
   font-style: italic;
   font-size: 15px;
-  font-family: cursive;Brush Script MT;
 
+  color: white;
 }
 hr{
   height:2px;
   width:30%;
-color: white;  }
+color: white;
+ }
+
 .book{
   border-radius: 20px;
   width: 20%;
-  height: 10%;
+  height: 30%;
 }
 .emoji{
   border-radius: 10px;
@@ -28,4 +30,8 @@ color: white;  }
 border-radius: 50%;
 width:80px;
 height:80px;
+  }
+  .centr{
+    color: white;
+    font-size: 180%;
   }

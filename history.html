@@ -4,10 +4,34 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+          .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+
+            padding: 10px;
+          }
+          .grid-item {
+
+            border: 1px solid #E4CDA7;
+            padding: 15px;
+            font-size: 30px;
+            text-align: center;
+          }
+          .book{
+            border-radius: 20px;
+
+            width: 70%;
+            height:60%;
+          }
+         </style>
   </head>
   <body>
-    <ul>
-      <li><a href="#">The kite runner</a></li>
-    </ul>
-  </body>
-</html>
+  <div class="grid-container">
+    <a href="./novels/history/The%20Mahabharata%20A%20Shortened%20Modern%20Prose%20Version%20of%20the%20Indian%20Epic%20by%20R.%20K.%20Narayan.pdf">The Mahabharat<div class="grid-item"><img class="book" src="./novels/history/mbt.jpg" alt=""></div></a>
+  <a href="./novels/history/The%20Kite%20Runner.pdf">The Kite Runner<div class="grid-item"><img class="book" src="./novels/history/kite.jpg" alt=""></div></a>
+
+<a href="./novels/history/World%20Without%20End.pdf">World Without End<div class="grid-item"><img class="book" src="./novels/history/end.jpg" alt=""></div></a>
+    </div>
+    </body>
+    </html>

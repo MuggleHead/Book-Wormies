@@ -1,17 +1,42 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+          .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+
+            padding: 10px;
+          }
+          .grid-item {
+
+            border: 1px solid #E4CDA7;
+            padding: 15px;
+            font-size: 30px;
+            text-align: center;
+          }
+          .book{
+            border-radius: 20px;
+
+            width: 70%;
+            height:60%;
+          }
+         </style>
   </head>
   <body>
-    <ul>
-      <li><a href="file:///D:/WEB%20DEVELOPMENT/demo/BookWormies/novels/suspense/Code%20to%20Zero.pdf">Code to zero</a></li>
-      <li><a href="file:///D:/WEB%20DEVELOPMENT/demo/BookWormies/novels/suspense/Follett,%20Ken%20-%20Storm%20Island.pdf">Storm Island</a></li>
-      <li><a href="file:///D:/WEB%20DEVELOPMENT/demo/BookWormies/novels/suspense/Black%20Suits%20You%20_%20By%20Novoneel%20Chakraborty.pdf">Black suits you</a></li>
-      <li><a href="file:///D:/WEB%20DEVELOPMENT/demo/BookWormies/novels/suspense/Cheaters%20_By%20Novoneel%20Chakraborty.pdf">Cheaters</a></li>
-      <li><a href="file:///D:/WEB%20DEVELOPMENT/demo/BookWormies/novels/suspense/A%20Man%20To%20Die%20For%20_By%20Suvika.pdf">A man to die for</a></li>
-    </ul>
+      <div class="grid-container">
+        <a href="./novels/suspense/Stranger%20Triology%20-%20Book%201%20-%20Marry%20Me%20Stranger.pdf">Marry me stranger<div class="grid-item"><img class="book" src="./novels/suspense/marry.jpg" alt=""></div></a>
+<a href="./novels/suspense/Stranger%20Triology%20-%20Book%203%20-%20Forget%20Me%20Not%20Stranger.pdf">Forget me not stranger<div class="grid-item"><img class="book" src="./novels/suspense/forget.jpg" alt=""></div></a>
+    <a href="./novels/suspense/Code%20to%20Zero.pdf">Code to zero<div class="grid-item"><img class="book" src="./novels/suspense/zero.jpg" alt=""></div></a>
+  <a href="./novels/suspense/Follett,%20Ken%20-%20Storm%20Island.pdf">Storm Island<div class="grid-item"><img class="book" src="./novels/suspense/island.jpg" alt=""></div></a>
+    <a href="./novels/suspense/Black%20Suits%20You%20_%20By%20Novoneel%20Chakraborty.pdf">Black suits you<div class="grid-item"><img class="book" src="./novels/suspense/suits.jpg" alt=""></div></a>
+    <a href="./novels/suspense/Cheaters%20_By%20Novoneel%20Chakraborty.pdf">Cheaters<div class="grid-item"><img class="book" src="./novels/suspense/cheat.jpg" alt=""></div></a>
+    <a href="./novels/suspense/A%20Man%20To%20Die%20For%20_By%20Suvika.pdf">A man to die for<div class="grid-item"><img class="book" src="./novels/suspense/die.jpg" alt=""></div></a>
+    <a href="./novels/suspense/Stranger%20Triology%20-%20Book%202%20-%20All%20Yours%20Stranger.pdf">All yours Stranger<div class="grid-item"><img class="book" src="./novels/suspense/yours.jpg" alt=""></div></a>
+  </div>
   </body>
 </html>
