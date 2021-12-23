@@ -8,7 +8,7 @@
           .grid-container {
             display: grid;
             grid-template-columns: auto auto auto;
-
+padding-top: 10px;
             padding: 10px;
           }
           .grid-item {
@@ -18,20 +18,55 @@
             font-size: 30px;
             text-align: center;
           }
-          .book{
-            border-radius: 20px;
 
-            width: 70%;
-            height:60%;
+          h1{
+            font-size:350%;
+            color: white;
+            text-align: center;
+            text-decoration: underline;
+            text
+          }
+          .centr{
+            color: navy blue;
+            font-size: 180%;
+            padding-left: 16px;
+          }
+          .edit{
+           color: black;
+           font-size: 150%;
+           font-family: "Goudy Bookletter 1911", sans-serif;
+           text-align: center;
+           text-overflow: ellipsis;
+          }
+          .hero-image {
+            background-image: url("./novels/sus.jpg");
+            background-color: #black;
+            height: 2100px;
+            width: 1110px;
+            background-position: centre;
+            background-repeat: space;
+            background-size: cover;
+            position: relative;
           }
          </style>
   </head>
   <body>
+    <div class="hero-image">
+          <h1> Myths/History </h1>
   <div class="grid-container">
-    <a href="./novels/history/The%20Mahabharata%20A%20Shortened%20Modern%20Prose%20Version%20of%20the%20Indian%20Epic%20by%20R.%20K.%20Narayan.pdf">The Mahabharat<div class="grid-item"><img class="book" src="./novels/history/mbt.jpg" alt=""></div></a>
-  <a href="./novels/history/The%20Kite%20Runner.pdf">The Kite Runner<div class="grid-item"><img class="book" src="./novels/history/kite.jpg" alt=""></div></a>
-
-<a href="./novels/history/World%20Without%20End.pdf">World Without End<div class="grid-item"><img class="book" src="./novels/history/end.jpg" alt=""></div></a>
-    </div>
+    <a class="edit" href="./novels/history/The%20Mahabharata%20A%20Shortened%20Modern%20Prose%20Version%20of%20the%20Indian%20Epic%20by%20R.%20K.%20Narayan.pdf">The Mahabharat<div class="grid-item"><img class="book" src="./novels/history/mbt.jpg" alt=""></div></a>
+  <a class="edit" href="./novels/history/The%20Kite%20Runner.pdf">The Kite Runner<div class="grid-item"><img class="book" src="./novels/history/kite.jpg" alt=""></div></a>
+<a class="edit" href="./novels/history/World%20Without%20End.pdf">World Without End<div class="grid-item"><img class="book" src="./novels/history/end.jpg" alt=""></div></a>
+    </div><br><br>
+    <div class="grid-container">
+    <a class="edit" href="./novels/history/lincoln-in-the-bardo.pdf">Lincoln In The Bardo<div class="grid-item"><img class="book" src="./novels/history/bardo.jpg" alt=""></div></a>
+  <a class="edit" href="./novels/history/The%20Uprooted%20A%20Hitler%20Legacy%20Voices%20of%20Those%20Who%20Escaped%20Before%20the%20Final%20Solution%20by%20Dorit%20Bader%20Whiteman%20(z-lib.org).pdf">The Uprooted-Hitlers Legacy<div class="grid-item"><img class="book" src="./novels/history/hit.jpg" alt=""></div></a>
+<a class="edit" href="./novels/history/Devdutt%20Pattanaik%20Indian%20Mythology%20Tales,%20Symbols%20-%20wiwitan.org.pdf">Devdutt Pattanaik-Indian Mythology<div class="grid-item"><img class="book" src="./novels/history/dev.jpg" alt=""></div></a>
+  </div><br><br>
+    <div class="add">
+        <a href="index.html" class="centr">Home</a>
+          <a href="genre.html" class="centr">Genre</a>
+          <a href="contact.html" class="centr">Contact</a>
+        </div>
     </body>
     </html>
