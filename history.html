@@ -47,14 +47,41 @@ body{
           .hero-image {
             background-image: url("./novels/hi3.jpg");
             background-color: #black;
-            height: 1900px;
+            height: 1750px;
             width: 1110px;
             background-position: centre;
             background-repeat: space;
             background-size: cover;
             position: relative;
           }
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            height:4%;
+            width:100%;
+            font-size:100%;
+            font-variant-caps: petite-caps;
+                     font-weight: bolder;
+          }
 
+          li {
+            float: left;
+          }
+
+          li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration:underline;
+          }
+
+          li a:hover {
+            background-color: purple;
+          }
          </style>
   </head>
   <body>
@@ -74,11 +101,11 @@ body{
   <a class="edit" href="./novels/history/devlok%20with%20devutt%20patnaik%203.pdf">Devlok With The Dedutt Patnaik(Vol3)<div class="grid-item"><img class="book" src="./novels/history/3.jpg" alt=""></div></a>
 <a class="edit" href="./novels/history/Devlok%20with%20Devdutt%20Pattanaik%201.pdf">Devlok With The Dedutt Patnaik(Vol1)<div class="grid-item"><img class="book" src="./novels/history/2.jpg" alt=""></div></a>
 <a class="edit" href="./novels/history/Devlok%20with%20Devdutt%20Pattanaik%202.pdf">Devlok With The Dedutt Patnaik(Vol2)<div class="grid-item"><img class="book" src="./novels/history/1.jpg" alt=""></div></a>
-</div><br><br>
-    <div class="add">
-        <a href="index.html" class="centr">Home</a>
-          <a href="genre.html" class="centr">Genre</a>
-          <a href="contact.html" class="centr">Contact</a>
-        </div>
+</div><br><br><br>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="genre.html">Genre</a></li>
+  <li><a href="contact.html">Contact</a></li>
+      </ul>
     </body>
     </html>

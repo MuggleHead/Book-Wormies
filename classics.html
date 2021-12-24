@@ -21,7 +21,34 @@ padding-top: 15px;
             font-size: 30px;
             text-align: center;
           }
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            height:4%;
+            width:100%;
+            font-size:100%;
+            font-variant-caps: petite-caps;
+                     font-weight: bolder;
+          }
 
+          li {
+            float: left;
+          }
+
+          li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration:underline;
+          }
+
+          li a:hover {
+            background-color: purple;
+          }
           h1{
             font-size:350%;
             color: black;
@@ -29,17 +56,11 @@ padding-top: 15px;
             text-decoration: underline;
             text
           }
-          .centr{
-            color: purple;
-            font-size: 180%;
-            padding-left: 16px;
-            font-variant-caps: petite-caps;
-            font-weight: bolder;
-          }
-          .edit{
+
+          a{
            color: #E75480;
            font-size: 160%;
-           font-family: "Goudy Bookletter 1911", sans-serif;
+
            text-align: center;
            font-variant-caps: petite-caps;
            font-weight: bolder;
@@ -75,11 +96,12 @@ padding-top: 15px;
            <a class="edit" href="./novels/classics/beloved.pdf">Beloved<div class="grid-item"><img class="book" src="./novels/classics/bel.jpg" alt=""></div></a>
             <a class="edit" href="./novels/classics/brave-new-world.pdf">Brave New World<div class="grid-item"><img class="book" src="./novels/classics/nw.jpg" alt=""></div></a>
           </div>
-          <br><br>
-          <div class="add">
-             <a href="index.html" class="centr">Home</a>
-               <a href="genre.html" class="centr">Genre</a>
-               <a href="contact.html" class="centr">Contact</a>
-             </div>
+          <br><br><br>
+
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="genre.html">Genre</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul></div>
        </body>
      </html>

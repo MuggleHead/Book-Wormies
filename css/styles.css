@@ -14,7 +14,7 @@ pre{
   color: white;
 }
  a:hover {
-background-color: #65ffef;
+opacity: 0.6;
 }
 hr{
   height:2px;

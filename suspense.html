@@ -38,7 +38,7 @@ padding-top: 10px;
             font-variant-caps: petite-caps;
             font-weight: bolder;
           }
-        
+
           a{
            color: black;
            font-size: 160%;
@@ -50,12 +50,40 @@ padding-top: 10px;
           .hero-image {
             background-image: url("./novels/sus.jpg");
             background-color: #black;
-            height: 2300px;
+            height: 2200px;
             width: 1110px;
             background-position: centre;
             background-repeat: space;
             background-size: cover;
             position: relative;
+          }
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            height:3%;
+            width:100%;
+            font-size:100%;
+            font-variant-caps: petite-caps;
+                     font-weight: bolder;
+          }
+
+          li {
+            float: left;
+          }
+
+          li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration:underline;
+          }
+
+          li a:hover {
+            background-color: purple;
           }
          </style>
   </head>
@@ -82,10 +110,10 @@ padding-top: 10px;
   <a class="edit" href="./novels/suspense/Uprooted%20by%20Naomi%20Novik.pdf">Uprooted<div class="grid-item"><img class="book" src="./novels/suspense/up.jpg" alt=""></div></a>
   <a class="edit" href="./novels/suspense/deception-point.pdf">Deception Point<div class="grid-item"><img class="book" src="./novels/suspense/decep.jpg" alt=""></div></a>
   </div><br><br>
-  <div class="add">
-      <a href="index.html" class="centr">Home</a>
-        <a href="genre.html" class="centr">Genre</a>
-        <a href="contact.html" class="centr">Contact</a>
-      </div>
-  </body>
+<br>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="genre.html">Genre</a></li>
+    <li><a href="contact.html">Contact</a></li>
+        </ul>
 </html>

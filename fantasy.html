@@ -54,6 +54,34 @@ body{
             background-size: cover;
             position: relative;
           }
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            height:3%;
+            width:100%;
+            font-size:100%;
+            font-variant-caps: petite-caps;
+                     font-weight: bolder;
+          }
+
+          li {
+            float: left;
+          }
+
+          li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration:underline;
+          }
+
+          li a:hover {
+            background-color: purple;
+          }
          </style>
   </head>
   <body>
@@ -83,10 +111,10 @@ body{
 <div class="grid-container">
 <a class="edit" href="./novels/fantasy/The%20Hobbit.pdf">The Hobbit<div class="grid-item"><img class="book" src="./novels/fantasy/hobb.jfif" alt=""></div></a>
 <a class="edit" href="./novels/fiction/Lore_-_Alexandra_Bracken.pdf">Lore<div class="grid-item"><img class="book" src="./novels/fantasy/lore.jpg" alt=""></div></a>
-</div><div class="add">
-    <a href="index.html" class="centr">Home</a>
-      <a href="genre.html" class="centr">Genre</a>
-      <a href="contact.html" class="centr">Contact</a>
-    </div>
+</div><br><br><br><ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="genre.html">Genre</a></li>
+  <li><a href="contact.html">Contact</a></li>
+      </ul>
   </body>
 </html>

@@ -4,11 +4,12 @@
 
     <title>BooKwORmiEs</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="./novels/favicon.io">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
 
-  font-family: Courier New, monospace;
+
 background-color:black;
 }
 
@@ -31,17 +32,33 @@ text-align: center;
  .centre{
    color: white;
  }
- .add{
-  background-color: #FF00FF;
-  color: black;
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+   height:4.3%;
+   width:100%;
+   font-size:200%;
+   font-variant-caps: petite-caps;
+            font-weight: bolder;
  }
 
- .centr{
-   color: purple;
-   font-size: 180%;
-   padding-left: 16px;
-   font-variant-caps: petite-caps;
-   font-weight: bolder;
+ li {
+   float: left;
+ }
+
+ li a {
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration:underline;
+ }
+
+ li a:hover {
+   background-color: purple;
  }
 
 </style>
@@ -83,9 +100,10 @@ text-align: center;
   <br>
     <br>
     <br>
-  <div class="add"><a href="index.html" class="centr" >Home</a>
-    <a href="genre.html" class="centr">Genre</a>
-    <a href="contact.html" class="centr">Contact</a>
-  </div></div>
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="genre.html">Genre</a></li>
+      <li><a href="contact.html">Contact</a></li>
+          </ul></div>
 </body>
 </html>

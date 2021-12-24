@@ -20,6 +20,34 @@ hr{
   width:250%;
   color: white;
  }
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+   height:2.8%;
+   width:100%;
+   font-size:200%;
+   font-variant-caps: petite-caps;
+            font-weight: bolder;
+ }
+
+ li {
+   float: left;
+ }
+
+ li a {
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration:underline;
+ }
+
+ li a:hover {
+   background-color: purple;
+ }
 
       .grid-container {
         display: grid;
@@ -96,14 +124,14 @@ hr{
 <div class="grid-container">
   <a class="edit" href="classics.html" class="edit">   Classics                      <div class="grid-item"><img class="bok" src="classics.jfif" alt=""></div></a>
   <a class="edit" href="detective.html" class="edit">  Detective and Mystery         <div class="grid-item"><img class="bok" src="detective.jpg" alt=""></div></a>
-  <a class="edit" href="suspense.html" class="edit">   Suspense/Thriller         <div class="grid-item"><img class="bok" src="suspense.jpg" alt=""></div></a>
+  <a class="edit" href="suspense.html" class="edit">   Suspense      <div class="grid-item"><img class="bok" src="suspense.jpg" alt=""></div></a>
 </div>
 <br>
 <br><br>
 <div class="grid-container">
   <a class="edit" href="crime.html" class="edit">      Crime                          <div class="grid-item"><img class="bok" src="crime.jpg" alt=""></div></a>
   <a class="edit" href="biography.html" class="edit">  Biography/Autobiography<div class="grid-item"><img class="bok" src="biography.jfif" alt=""></div></a>
-  <a class="edit" href="history.html" class="edit">    History                        <div class="grid-item"><img class="bok" src="history.jfif" alt=""></div></a>
+  <a class="edit" href="history.html" class="edit">    Myths/History                        <div class="grid-item"><img class="bok" src="history.jfif" alt=""></div></a>
 </div>
 <br><br>
 <br>
@@ -114,12 +142,12 @@ hr{
 <br>
 <br>
 <br>
-</div>
-<div class="add">
-  <a href="index.html" class="centr">Home</a>
-    <a href="genre.html" class="centr">Genre</a>
-    <a href="contact.html" class="centr">Contact</a>
-  </div>
+</div><br><br><br>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="genre.html">Genre</a></li>
+  <li><a href="contact.html">Contact</a></li>
+      </ul>
 </div>
   </body>
 
