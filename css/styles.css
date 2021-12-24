@@ -13,6 +13,9 @@ pre{
 
   color: white;
 }
+ a:hover {
+background-color: #65ffef;
+}
 hr{
   height:2px;
   width:30%;
@@ -35,12 +38,7 @@ width:80px;
 height:80px;
   }
 
-  .add{
-   background-color: #red;
-   color: white;
-   text-align: center;
 
-  }
   img {
 border: 10px solid black;
 }
